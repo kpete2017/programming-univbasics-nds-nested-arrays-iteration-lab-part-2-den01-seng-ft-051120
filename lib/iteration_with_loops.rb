@@ -9,6 +9,7 @@ while counter < src.length do
     if src[counter][internal_counter] < current_smallest_number
       current_smallest_number = src[counter][internal_counter]
       new_array[counter] = current_smallest_number
+    end
       internal_counter += 1
     end
     current_smallest_number = 0
