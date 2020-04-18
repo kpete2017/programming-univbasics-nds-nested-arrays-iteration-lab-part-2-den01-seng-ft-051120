@@ -5,5 +5,6 @@ new_array = []
 counter = 0
 while counter < src.length do
   internal_counter = 0
-  
+  while counter < src[counter].length do
+    if 
 end
