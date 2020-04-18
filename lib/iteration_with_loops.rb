@@ -6,7 +6,7 @@ counter = 0
 while counter < src.length do
   internal_counter = 0
   current_smallest_number = 100000000000
-  while counter < src[counter].length do
+  while internal_counter < src[counter].length do
     if current_smallest_number > src[counter][internal_counter]
       current_smallest_number = src[counter][internal_counter]
       new_array[counter] = current_smallest_number
