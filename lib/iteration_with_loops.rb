@@ -13,4 +13,5 @@ while counter < src.length do
     end
     current_smallest_number = 0
     counter += 1
+  end
 end
