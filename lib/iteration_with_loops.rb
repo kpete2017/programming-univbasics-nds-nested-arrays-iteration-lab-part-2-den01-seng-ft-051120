@@ -13,7 +13,6 @@ while counter < src.length do
     end
       internal_counter += 1
     end
-    current_smallest_number = 0
     counter += 1
   end
 end
